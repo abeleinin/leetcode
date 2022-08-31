@@ -10,45 +10,41 @@
 | Search        | O(n)         |
 | Insert/Delete | O(n)         |
 
-Access - O(1)
-
-Search — O(n)
-
-Insert/Delete — O(n)
-
 ### Linked Lists
-
-Access - O(n)
-
-Search — O(n)
-
-Insert/Delete — O(1)
+|               | Average Time |
+|---------------|--------------|
+| Access        | O(n)         |
+| Search        | O(n)         |
+| Insert/Delete | O(1)         |
 
 ### Hash Tables
-Search - O(1)
-
-Insert/Delete - O(1)
+|               | Average Time |
+|---------------|--------------|
+| Search        | O(1)         |
+| Insert/Delete | O(1)         |
 
 ### Queue
-Access - O(n)
-
-Search - O(n)
-
-Insert/Delete - O(1)
+First in first out
+|               | Average Time |
+|---------------|--------------|
+| Access        | O(n)         |
+| Search        | O(n)         |
+| Insert/Delete | O(1)         |
 
 ### Stacks
-Access - O(n)
-
-Search - O(n)
-
-Insert/Delete - O(1)
+Last in first out
+|               | Average Time |
+|---------------|--------------|
+| Access        | O(n)         |
+| Search        | O(n)         |
+| Insert/Delete | O(1)         |
 
 ### Trees (Binary Search Tree)
-Access - O(log(n))
-
-Search - O(log(n))
-
-Insert/Delete - O(log(n))
+|               | Average Time |
+|---------------|--------------|
+| Access        | O(log(n))         |
+| Search        | O(log(n))         |
+| Insert/Delete | O(log(n))         |
 
 ### Graphs
 
