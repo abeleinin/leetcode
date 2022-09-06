@@ -31,8 +31,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 ### Binary Search
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :white_large_square: | Binary Search | Easy 
-
+| :heavy_check_mark: | [Binary Search](https://leetcode.com/problems/binary-search) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/704-Binary-Search.py)
 
 ### Linked List
 | Status             |Problem  | Difficulty | Code
