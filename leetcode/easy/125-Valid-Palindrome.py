@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-class Solutino:
+class Solution:
   def validPalindrome(self, s: str) -> bool:
     # Initialize front and back pointers
     f = 0
