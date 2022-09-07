@@ -36,7 +36,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 ### Linked List
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :white_large_square: | Reverse Linked List | Easy 
+| :heavy_check_mark: | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/206-Reverse-Linked-List.py)
 | :white_large_square: | Merge Two Linked Lists | Easy 
 | :white_large_square: | Linked List Cycle | Easy 
 
