@@ -37,13 +37,13 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/206-Reverse-Linked-List.py)
-| :heavy_check_mark: | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/21-Merge-Two-Sorted-List.py)
-| :white_large_square: | Linked List Cycle | Easy 
+| :heavy_check_mark: | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/21-Merge-Two-Sorted-Lists.py)
+| :heavy_check_mark: | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/141-Linked-List-Cycle.py)
 
 ### Trees
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :white_large_square: | Invert Binary Tree | Easy 
+| :heavy_check_mark: | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/225-Invert-Binary-Tree.py)
 | :white_large_square: | Maximum Depth of Binary Tree | Easy 
 | :white_large_square: | Diameter of Binary Tree | Easy 
 | :white_large_square: | Balenced Binary Tree | Easy 
