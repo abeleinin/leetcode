@@ -6,6 +6,7 @@
 #         self.next = None
 
 class Solution:
+    # Initial Solution
     def hasCycle(self, head: list) -> bool:
         if head == None or head.next == None:
             return False

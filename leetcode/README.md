@@ -44,7 +44,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/225-Invert-Binary-Tree.py)
-| :white_large_square: | Maximum Depth of Binary Tree | Easy 
+| :heavy_check_mark: | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/104-Maximum-Depth-of-Binary-Tree.py)
 | :white_large_square: | Diameter of Binary Tree | Easy 
 | :white_large_square: | Balenced Binary Tree | Easy 
 | :white_large_square: | Same Tree | Easy 
