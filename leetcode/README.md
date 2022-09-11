@@ -45,8 +45,8 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/225-Invert-Binary-Tree.py)
 | :heavy_check_mark: | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/104-Maximum-Depth-of-Binary-Tree.py)
-| :white_large_square: | Diameter of Binary Tree | Easy 
-| :white_large_square: | Balenced Binary Tree | Easy 
+| :heavy_check_mark: | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/543-Diameter-of-Binary-Tree.py)
+| :heavy_check_mark: | [Balenced Binary Tree](https://leetcode.com/problems/balenced-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/110-Balanced-Binary-Tree.py)
 | :white_large_square: | Same Tree | Easy 
 | :white_large_square: | Subtree of Another Tree | Easy 
 | :white_large_square: | Lowest Common Ancestor of a BST | Easy 
