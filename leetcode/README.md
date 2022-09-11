@@ -47,13 +47,17 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :heavy_check_mark: | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/104-Maximum-Depth-of-Binary-Tree.py)
 | :heavy_check_mark: | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/543-Diameter-of-Binary-Tree.py)
 | :heavy_check_mark: | [Balenced Binary Tree](https://leetcode.com/problems/balenced-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/110-Balanced-Binary-Tree.py)
-| :white_large_square: | Same Tree | Easy 
-| :white_large_square: | Subtree of Another Tree | Easy 
-| :white_large_square: | Lowest Common Ancestor of a BST | Easy 
+| :heavy_check_mark: | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/100-Same-Tree.py)
+| :heavy_check_mark: | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/572-Subtree-of-Another-Tree.py)
+| :white_large_square: | Lowest Common Ancestor of a BST | Medium
 
 ### Tries
 
 ### Heap / Priority Queue
+| Status             |Problem  | Difficulty | Code
+|--------------------|---------|------------|-----
+| :white_large_square: | Kth Largest Element in a Stream | Easy 
+| :white_large_square: | Last Stone Weight | Easy 
 
 ### Backtracking
 
@@ -62,14 +66,32 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 ### Advanced Graphs
 
 ### 1-D Dynamic Progamming
+| Status             |Problem  | Difficulty | Code
+|--------------------|---------|------------|-----
+| :white_large_square: | Climbing Stairs | Easy 
+| :white_large_square: | Min Cost Climbing Stairs | Easy 
 
 ### 2-D Dynamic Programming
 
 ### Greedy
 
 ### Intervals
+| Status             |Problem  | Difficulty | Code
+|--------------------|---------|------------|-----
+| :white_large_square: | Meeting Rooms | Easy 
 
 ### Math & Geometry 
+| Status             |Problem  | Difficulty | Code
+|--------------------|---------|------------|-----
+| :white_large_square: | Happy Number | Easy 
+| :white_large_square: | Plus One | Easy 
 
 ### Bit Manipulation
+| Status             |Problem  | Difficulty | Code
+|--------------------|---------|------------|-----
+| :white_large_square: | Single Number | Easy 
+| :white_large_square: | Number of 1 Bits | Easy 
+| :white_large_square: | Counting Bits | Easy 
+| :white_large_square: | Reverse Bits | Easy 
+| :white_large_square: | Missing Number | Easy 
 
