@@ -11,7 +11,12 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :heavy_check_mark: | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/217-Contains-Duplicate.py)
 | :heavy_check_mark: | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/242-Valid-Anagram.py)
 | :heavy_check_mark: | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/1-Two-Sum.py)
-| :white_large_square: | Group Anagrams | Medium | 
+| :heavy_check_mark: | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/49-Group-Anagrams.py)
+| :white_large_square: | Top K Frequent Elements | Medium
+| :white_large_square: | Product of Array Except Self | Medium
+| :white_large_square: | Valid Sudoku | Medium
+| :white_large_square: | Encode and Decode Strings | Medium
+| :white_large_square: | Lognest Consectutive Sequence | Medium
 
 ### Two Pointer
 | Status             |Problem  | Difficulty | Code
