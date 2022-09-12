@@ -11,7 +11,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :heavy_check_mark: | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/217-Contains-Duplicate.py)
 | :heavy_check_mark: | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/242-Valid-Anagram.py)
 | :heavy_check_mark: | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/1-Two-Sum.py)
-| :heavy_check_mark: | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/49-Group-Anagrams.py)
+| :heavy_check_mark: | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/49-Group-Anagrams.py)
 | :white_large_square: | Top K Frequent Elements | Medium
 | :white_large_square: | Product of Array Except Self | Medium
 | :white_large_square: | Valid Sudoku | Medium
@@ -21,12 +21,12 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 ### Two Pointer
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :heavy_check_mark: | [Valid Palindrome](https://leetcode.come/problems/valid-palindrome) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/125-Valid-Anagram.py)
+| :heavy_check_mark: | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/242-Valid-Anagram.py)
 
 ### Sliding Window
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :heavy_check_mark: | [Best Time to Buy & Sell Stock](https://leetcode.come/problems/best-time-to-buy-and-sell-stock) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/121-Best-Time-to-Buy-and-Sell-Stock.py)
+| :heavy_check_mark: | [Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/121-Best-Time-to-Buy-and-Sell-Stock.py)
 
 ### Stack
 | Status             |Problem  | Difficulty | Code
@@ -48,10 +48,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 ### Trees
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :heavy_check_mark: | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/225-Invert-Binary-Tree.py)
+| :heavy_check_mark: | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/226-Invert-Binary-Tree.py)
 | :heavy_check_mark: | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/104-Maximum-Depth-of-Binary-Tree.py)
 | :heavy_check_mark: | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/543-Diameter-of-Binary-Tree.py)
-| :heavy_check_mark: | [Balenced Binary Tree](https://leetcode.com/problems/balenced-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/110-Balanced-Binary-Tree.py)
+| :heavy_check_mark: | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/110-Balanced-Binary-Tree.py)
 | :heavy_check_mark: | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/100-Same-Tree.py)
 | :heavy_check_mark: | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/572-Subtree-of-Another-Tree.py)
 | :white_large_square: | Lowest Common Ancestor of a BST | Medium
