@@ -14,9 +14,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :heavy_check_mark: | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/49-Group-Anagrams.py)
 | :heavy_check_mark: | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/347-Top-K-Frequent-Elements.py)
 | :heavy_check_mark: | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/238-Product-of-Array-Except-Self.py)
-| :white_large_square: | Valid Sudoku | Medium
-| :white_large_square: | Encode and Decode Strings | Medium
-| :white_large_square: | Lognest Consectutive Sequence | Medium
+| :heavy_check_mark: | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/36-Valid-Sudoku.py)
+| :x: | Encode and Decode Strings (Leetcode Premium) | Medium
+| :heavy_check_mark: | [Longest Consectutive Sequence](https://leetcode.com/problems/longest-consectutive-sequence/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/128-Longest-Consecutive-Sequence.py)
 
 ### Two Pointer
 | Status             |Problem  | Difficulty | Code
