@@ -30,6 +30,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/121-Best-Time-to-Buy-and-Sell-Stock.py)
+| :heavy_check_mark: | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/3-Longest-Substring-Without-Repeating-Characters.py)
 
 ### Stack
 | Status             |Problem  | Difficulty | Code
