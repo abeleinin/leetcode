@@ -36,6 +36,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/20-Valid-Parentheses.py)
+| :heavy_check_mark: | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/155-Min-Stack.py)
 
 ### Binary Search
 | Status             |Problem  | Difficulty | Code
