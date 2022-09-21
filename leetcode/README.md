@@ -2,6 +2,14 @@
 
 Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 
+## Totals
+
+| Difficulty | Solved
+|------------|--------
+| Easy | 17
+| Medium | 14
+| Hard | 0
+
 ## Topics
 
 ### Arrays & Hashing
