@@ -62,6 +62,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :heavy_check_mark: | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/100-Same-Tree.py)
 | :heavy_check_mark: | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/572-Subtree-of-Another-Tree.py)
 | :white_large_square: | Lowest Common Ancestor of a BST | Medium
+| :heavy_check_mark: | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/98-Validate-Binary-Search-Tree.py)
 
 ### Tries
 
@@ -72,6 +73,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :white_large_square: | Last Stone Weight | Easy 
 
 ### Backtracking
+| :heavy_check_mark: | [Subsets](https://leetcode.com/problems/subsets) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/78-Subsets.py)
 
 ### Graphs
 
@@ -80,7 +82,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 ### 1-D Dynamic Progamming
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :white_large_square: | Climbing Stairs | Easy 
+| :heavy_check_mark: | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/70-Climbing-Stairs.py)
 | :white_large_square: | Min Cost Climbing Stairs | Easy 
 
 ### 2-D Dynamic Programming
