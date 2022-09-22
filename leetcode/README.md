@@ -7,7 +7,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Difficulty | Solved
 |------------|--------
 | Easy | 17
-| Medium | 14
+| Medium | 15
 | Hard | 0
 
 ## Topics
@@ -84,6 +84,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :heavy_check_mark: | [Subsets](https://leetcode.com/problems/subsets) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/78-Subsets.py)
 
 ### Graphs
+| :heavy_check_mark: | [Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/200-Number-of-Islands.py)
 
 ### Advanced Graphs
 
