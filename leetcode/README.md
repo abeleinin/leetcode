@@ -7,7 +7,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Difficulty | Solved
 |------------|--------
 | Easy | 17
-| Medium | 15
+| Medium | 16
 | Hard | 0
 
 ## Topics
@@ -85,6 +85,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 
 ### Graphs
 | :heavy_check_mark: | [Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/200-Number-of-Islands.py)
+| :heavy_check_mark: | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/medium/695-Max-Area-of-Island.py)
 
 ### Advanced Graphs
 
