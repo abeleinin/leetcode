@@ -2,7 +2,7 @@
 Studying for technical interviews using neetcode.io. 
 
 ## Neetcode150
-The [neetcode150](https://neetcode.io/practice) folder contains solutions to the neetcode 150 in python.
+The [neetcode150](https://github.com/abeleinin/neetcode/tree/main/neetcode150) folder contains solutions to the neetcode 150 in python.
 
 | Difficulty | Solved
 |------------|--------
