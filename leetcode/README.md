@@ -6,9 +6,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 
 | Difficulty | Solved
 |------------|--------
-| Easy | 17
+| Easy | 18
 | Medium | 16
 | Hard | 0
+| Total | 34
 
 ## Topics
 
@@ -114,7 +115,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :white_large_square: | Single Number | Easy 
-| :white_large_square: | Number of 1 Bits | Easy 
+| :heavy_check_mark: | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/leetcode/easy/191-Number-of-1-Bits.py)
 | :white_large_square: | Counting Bits | Easy 
 | :white_large_square: | Reverse Bits | Easy 
 | :white_large_square: | Missing Number | Easy 
