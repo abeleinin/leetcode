@@ -1,11 +1,22 @@
 # Neetcode
 Studying for technical interviews using neetcode.io. 
 
-## Leetcode
-The [leetcode](https://github.com/abeleinin/neetcode/tree/main/leetcode) folder contains solutions to the neetcode 150 in python.
+## Neetcode150
+The [neetcode150](https://neetcode.io/practice) folder contains solutions to the neetcode 150 in python.
+
+| Difficulty | Solved
+|------------|--------
+| Easy | 18
+| Medium | 16
+| Hard | 0
+| Total | 34 / 150
+
+## Topics
+The [topics](https://github.com/abeleinin/neetcode/tree/main/topics) folder contains notes on different interview topics.
+
+| Recent Topics Studied |
+|------------------------
+| [Hashing](https://github.com/abeleinin/neetcode/tree/main/topics/hashing.md)
 
 ## Notes
-The [notes](https://github.com/abeleinin/neetcode/tree/main/notes) folder contains notes about data structures, algorithms, and leetcode problems.
-
-## DSA
-The [dsa](https://github.com/abeleinin/neetcode/tree/main/dsa) folder contains implementation of common data structures and algorithms in python.
+The [notes](https://github.com/abeleinin/neetcode/tree/main/notes) folder contains notes from specific solves, including thought process and ideas learned.

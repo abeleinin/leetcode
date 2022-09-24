@@ -1,4 +1,4 @@
-# Leetcode
+# Neetcode
 
 Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 
