@@ -71,6 +71,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :heavy_check_mark: | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/100-Same-Tree.py)
 | :heavy_check_mark: | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/572-Subtree-of-Another-Tree.py)
 | :white_large_square: | Lowest Common Ancestor of a BST | Medium
+| :heavy_check_mark: | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/102-Binary-Tree-Level-Order-Traversal.py)
 | :heavy_check_mark: | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/98-Validate-Binary-Search-Tree.py)
 
 ### Tries
