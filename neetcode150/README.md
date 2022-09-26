@@ -1,15 +1,15 @@
 # Neetcode
 
-Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
+Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and C++.
 
 ## Totals
 
-| Difficulty | Solved
-|------------|--------
-| Easy | 18
-| Medium | 18
-| Hard | 0
-| Total | 36
+| Difficulty | Solved in Python3 | Solved in C++
+|------------|-------------------|---------------
+| Easy       | 18                | 3
+| Medium     | 19                | 1
+| Hard       | 0                 | 0 
+| Total      | 37 / 150          | 4 / 150
 
 ## Topics
 
@@ -17,9 +17,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|---
-| :heavy_check_mark: | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/217-Contains-Duplicate.py)
+| :heavy_check_mark: | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/217-Contains-Duplicate.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/217-Contains-Duplicate.cpp)
 | :heavy_check_mark: | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/242-Valid-Anagram.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/242-Valid-Anagram.cpp)
-| :heavy_check_mark: | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/1-Two-Sum.py)
+| :heavy_check_mark: | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/1-Two-Sum.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/1-Two-Sum.cpp)
 | :heavy_check_mark: | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/49-Group-Anagrams.py)
 | :heavy_check_mark: | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/347-Top-K-Frequent-Elements.py)
 | :heavy_check_mark: | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/238-Product-of-Array-Except-Self.py)
@@ -113,6 +113,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 ### Math & Geometry 
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
+| :heavy_check_mark: | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/48-Rotate-Image.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/cpp/48-Rotate-Image.cpp)
 | :white_large_square: | Happy Number | Easy 
 | :white_large_square: | Plus One | Easy 
 | :heavy_check_mark: | [Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/73-Set-Matrix-Zeros.py)
@@ -125,4 +126,3 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | :white_large_square: | Counting Bits | Easy 
 | :white_large_square: | Reverse Bits | Easy 
 | :white_large_square: | Missing Number | Easy 
-
