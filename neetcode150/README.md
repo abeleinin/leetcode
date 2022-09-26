@@ -18,7 +18,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|---
 | :heavy_check_mark: | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/217-Contains-Duplicate.py)
-| :heavy_check_mark: | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/242-Valid-Anagram.py)
+| :heavy_check_mark: | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/242-Valid-Anagram.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/242-Valid-Anagram.cpp)
 | :heavy_check_mark: | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/1-Two-Sum.py)
 | :heavy_check_mark: | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/49-Group-Anagrams.py)
 | :heavy_check_mark: | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/347-Top-K-Frequent-Elements.py)
@@ -115,7 +115,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 |--------------------|---------|------------|-----
 | :white_large_square: | Happy Number | Easy 
 | :white_large_square: | Plus One | Easy 
-| :heavy_check_mark: | [Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeros/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/73-Set-Matrix-Zeros.py)
+| :heavy_check_mark: | [Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/73-Set-Matrix-Zeros.py)
 
 ### Bit Manipulation
 | Status             |Problem  | Difficulty | Code
