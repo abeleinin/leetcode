@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 | Difficulty | Solved
 |------------|--------
 | Easy | 18
-| Medium | 16
+| Medium | 18
 | Hard | 0
-| Total | 34
+| Total | 36
 
 ## Topics
 
@@ -115,6 +115,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in python.
 |--------------------|---------|------------|-----
 | :white_large_square: | Happy Number | Easy 
 | :white_large_square: | Plus One | Easy 
+| :heavy_check_mark: | [Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeros/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/73-Set-Matrix-Zeros.py)
 
 ### Bit Manipulation
 | Status             |Problem  | Difficulty | Code
