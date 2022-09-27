@@ -1,8 +1,7 @@
 Competitive Programmer's Handbook Note's
 ===
 
-* [Introduction](#introduction)
-  * [Mathematics](#mathematics)
+* [Mathematics](#mathematics)
 * [Time Complexity](#time-complexity) 
 * [Sorting](#sorting) 
 * [Data Structures](#data-structures) 
@@ -12,60 +11,57 @@ Competitive Programmer's Handbook Note's
   * [Iterators and Ranges](#iterators-and-ranges)
   * [Other Structures](#other-structures)
 
-Introduction
----
-
-### Mathematics
+## Mathematics
 Important knowledge to knew/review when solving programming problems.
 
-#### Sum Formulas
+### Sum Formulas
 
 $\sum^n_{x = 1} x^k = 1^k + 2^k + 3^k + ... + n^k$
 
-**Arithmetic progressions**
+#### Arithmetic progressions
 
-**Geometric progressions**
+#### Geometric progressions
 
-**Harmonic sum**
+#### Harmonic sum
 
-#### Set Theory
+### Set Theory
 
-**Intersection:**
+#### Intersection:
 Items in both A and B.
 
 $A = \{1, 2, 5\} $ \
 $B = \{2, 4\} $ \
 $A \cap B = \{2\} $ 
 
-**Union:**
+#### Union:
 Items in A and B or both.
 
 $A = \{3, 7\}$ \
 $B = \{2, 3, 8\}$ \
 $A \cup B = \{2, 3, 4, 8\}$
 
-**Complement:** 
+#### Complement:
 Elements that are not in A.
 
 $U = \{1, ... , 10\}$ \
 $A = \{1, 2, 3, 7\}$ \
 $\overline{A} = \{4, 5, 6, 8, 9, 10\}$ 
 
-**Difference:**
+#### Difference:
 Elements that are in A but not in B.
 
 $A = \{2, 3, 7, 8\}$ \
 $B = \{2, 5, 8\}$ \
 $A \backslash D = A \cap \overline{B} = \{2, 7\}$
 
-**Subset:**
+#### Subset:
 If each element of A belongs to S, we say that A is a subset of S. Denoted $A \subset S$.
 
-#### Logic 
+### Logic 
 
-#### Functions
+### Functions
 
-#### Logarithms
+### Logarithms
 
 ## Time Complexity 
 
@@ -271,4 +267,108 @@ An **iterator** is a variable that points to an element in a data structure.
   s.begin()                  s.end()
 ```
 
+#### Working with ranges 
+Sorting vectors
+```cpp
+sort(v.begin(), v.end());
+reverse(v.begin(), v.end());
+random_shuffle(v.begin(), v.end());
+```
+
+Sorting arrays
+```cpp
+sort(a, a+n);
+reverse(a, a+n);
+random_shuffle(a, a+n);
+```
+
+#### Set iterators
+The following code create an iterator `it` that points to the smallest element in a set:
+```cpp
+set<int>::iterator it = s.begin();
+
+// Shorter way to write
+auto it = s.begin();
+```
+
+iterator pointers can be accessed using the `*` symbol.
+```cpp
+auto it = s.begin();
+cout << *it << '\n';
+```
+
+Iterators can be moved using the operators `++` (forward) and `--` (backwards). Thus, iterators can be used to print all the elements in increasing order:
+```cpp
+for(auto it = s.begin(); it != s.end(); it++){
+  cout << *it << '\n';
+}
+```
+
+`find(x)` returns an iterator that points to an element whose value is `x`. If the set does nto contain x, the iterator will be equal to `.end()`
+```cpp
+auto it = s.find(x);
+if(it == s.end()){
+  // x is not found
+}
+```
+
+`lower_bound(x)` returns an iterator to the smallest element in the set whose value is *at least x*.
+
+`upper_bound(x)` returns an iterator to the smallest element in the set whose value is *larger than x*.
+
+Ex. Finds the element nearest to *x*:
+```cpp
+auto it = s.lower_bound(x);
+if (it == s.begin()) {
+  cout << *it << '\n';
+} else if (it == s.end()) {
+  it--;
+  cout << *it << '\n';
+} else {
+  int a = *it; it--;
+  int b = *it;
+  if (x-b < a-x) cout << b << '\n';
+  else cout << a << '\n';
+}
+```
+
 ### Other Structures 
+
+#### Bitset
+A **bitset** is an array whose each value is either 0 or 1.
+
+Ex. Creates a bitset that contains 10 elements:
+```cpp
+bitset<10> s;
+s[1] = 1;
+s[3] = 1;
+s[4] = 1;
+s[7] = 1;
+cout << s[4] << '\n'; // 1
+cout << s[5] << '\n'; // 0
+```
+
+Bitsets only uses 1 bit of of memory per element while in a normal array 32 bits are allocated for each element. Additionally, bit operators can be used to efficiently manipulate bitsets.
+```cpp
+bitset<10> s(string("0010011010")); // from right to left
+cout << s[4] << '\n'; // 1
+cout << s[5] << '\n'; // 0
+
+// Return the number of ones in the bitset
+cout << s.count() << '\n'; // 4
+
+// Using bit operations
+bitset<10> a(string("0010110110"));
+bitset<10> b(string("1011011000"));
+cout << (a&b) << "\n"; // 0010010000
+cout << (a|b) << "\n"; // 1011111110
+cout << (a^b) << "\n"; // 1001101110
+```
+
+#### Deque
+
+#### Stack
+
+#### Queue
+
+#### Priority Queue
