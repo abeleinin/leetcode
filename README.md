@@ -7,9 +7,9 @@ The [neetcode150](https://github.com/abeleinin/neetcode/tree/main/neetcode150) f
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 18                | 3
-| Medium     | 19                | 1
+| Medium     | 20                | 2
 | Hard       | 0                 | 0 
-| Total      | 37 / 150          | 4 / 150
+| Total      | 38 / 150          | 5 / 150
 
 ## Topics
 The [topics](https://github.com/abeleinin/neetcode/tree/main/topics) folder contains notes on different interview topics.

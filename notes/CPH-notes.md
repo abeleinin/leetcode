@@ -10,9 +10,10 @@ Competitive Programmer's Handbook Note's
   * [Map Structures](#map-structures)
   * [Iterators and Ranges](#iterators-and-ranges)
   * [Other Structures](#other-structures)
+* [Complete Search](#complete-search)
 
 ## Mathematics
-Important knowledge to knew/review when solving programming problems.
+Important knowledge to know/review when solving programming problems.
 
 ### Sum Formulas
 
@@ -366,9 +367,75 @@ cout << (a^b) << "\n"; // 1001101110
 ```
 
 #### Deque
+A **deque** is a dynamic array whose size can be efficiently changed at both ends of the array. 
+
+Deque provides `push_back`, `pop_back`, `push_front`, and `pop_front`.
+```cpp
+deque<int> d;
+d.push_back(5); // [5]
+d.push_back(2); // [5,2]
+d.push_front(3); // [3,5,2]
+d.pop_back(); // [3,5]
+d.pop_front(); // [5]
+```
 
 #### Stack
+A **stack** is a data structure that provides two `O(1)` time operations for adding an element to the top and removing an element from the top. It is only possible to access the top element of a stack.
+```cpp
+stack<int> s;
+s.push(3);
+s.push(2);
+s.push(5);
+cout << s.top() << '\n'; // 5
+s.pop();
+cout << s.top() << '\n'; // 2
+```
 
 #### Queue
+A **queue** also provides two `O(1)` time operations for adding an element to the end and removing the first element.
+```cpp
+queue<int> q;
+q.push(3);
+q.push(2);
+q.push(5);
+cout << q.front() << '\n'; // 3
+q.pop();
+cout << q.front() << '\n'; // 3
+```
 
 #### Priority Queue
+A **priority queue** maintains set of elements. Insertion and removal take `O(log n)` time, and retrieval takes `O(1)` time.
+
+```cpp
+priority_queue<int> q;
+q.push(3);
+q.push(5);
+q.push(7);
+q.push(2);
+cout << q.top() << "\n"; // 7
+q.pop();
+cout << q.top() << "\n"; // 5
+q.pop();
+q.push(6);
+cout << q.top() << "\n"; // 6
+q.pop();
+```
+
+## Complete Search
+**Complete search** implements a brute force search that generates all possible solutions to the problem and then selects the best solution or count the number of solutions, depending on the problem.
+
+If complete search is too slow, other techniques, such as greedy algorithms or dynamic programming can be used.
+
+### Generating subsets
+Problem covered in [leetcode 78](https://leetcode.com/problems/subsets/) we want to generate all the subsets of a given set. For example, the subsets of `{1, 2, 3}` are `{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3} and {1, 2, 3}`
+
+#### Method 1
+
+
+### Generating permutations
+
+### Backtracking
+
+### Pruning the search
+
+### Meet in the middle
