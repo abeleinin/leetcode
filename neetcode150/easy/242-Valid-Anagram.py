@@ -38,6 +38,7 @@ class Solution:
     count = [0] * 26
     for i in range(len(s)):
       # Increment if in s 
+      # ord() function 
       count[ord(s[i]) - ord('a')] += 1
       # Decrement if in t
       count[ord(t[i]) - ord('a')] -= 1
