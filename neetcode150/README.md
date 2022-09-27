@@ -85,7 +85,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 ### Backtracking
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :heavy_check_mark: | [Subsets](https://leetcode.com/problems/subsets) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/78-Subsets.py)
+| :heavy_check_mark: | [Subsets](https://leetcode.com/problems/subsets) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/78-Subsets.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/cpp/78-Subsets.cpp)
 
 ### Graphs
 | Status             |Problem  | Difficulty | Code
