@@ -1,10 +1,10 @@
 Competitive Programmer's Handbook Note's
 ===
 
-[Introduction](#introduction)
-[Time Complexity](#time-complexity)
-[Sorting](#sorting)
-[Data Structures](#data-structures)
+- [Introduction](#introduction)
+- [Time Complexity](#time-complexity) 
+- [Sorting](#sorting) 
+- [Data Structures](#data-structures) 
 
 Introduction
 ---
@@ -14,7 +14,9 @@ Important knowledge to knew/review when solving programming problems.
 
 #### Sum Formulas
 
-$\sum^n_{x = 1} x^k = 1^k + 2^k + 3^k + ... + n^k$
+$$
+\sum^n_{x = 1} x^k = 1^k + 2^k + 3^k + ... + n^k
+$$
 
 Arithmetic progressions
 
@@ -26,6 +28,7 @@ Harmonic sum
 
 ##### Intersection: 
 Items in both A and B.
+
 $$
 A = \{1, 2, 5\} \\
 B = \{2, 4\} \\
@@ -34,6 +37,7 @@ $$
 
 ##### Union: 
 Items in A and B or both.
+
 $$
 A = \{3, 7\} \\
 B = \{2, 3, 8\} \\
@@ -42,6 +46,7 @@ $$
 
 ##### Complement: 
 Elements that are not in A.
+
 $$  
 U = \{1, ... , 10\} \\
 A = \{1, 2, 3, 7\} \\
@@ -50,6 +55,7 @@ $$
 
 ##### Difference: 
 Elements that are in A but not in B.
+
 $$
 A = \{2, 3, 7, 8\} \\
 B = \{2, 5, 8\} \\
