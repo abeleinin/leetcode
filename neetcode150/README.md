@@ -53,7 +53,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Binary Search](https://leetcode.com/problems/binary-search) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/704-Binary-Search.py)
-| :heavy_check_mark: | [Search Rotated Sorted Array](https://leetcode.com/problems/binary-search) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/33-Search-in-Rotated-Sorted-Array.py)
+| :heavy_check_mark: | [Search Rotated Sorted Array](https://leetcode.com/problems/binary-search) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/33-Search-in-Rotated-Sorted-Array.py) [cpp](neetcode150/medium/33-Search-in-Rotated-Sorted-Array.cpp)
 
 ### Linked List
 | Status             |Problem  | Difficulty | Code
