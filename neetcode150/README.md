@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 18                | 3
-| Medium     | 21                | 3
+| Medium     | 22                | 4
 | Hard       | 0                 | 0 
-| Total      | 39 / 150          | 6 / 150
+| Total      | 40 / 150          | 7 / 150
 
 ## Topics
 
@@ -53,7 +53,8 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Binary Search](https://leetcode.com/problems/binary-search) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/704-Binary-Search.py)
-| :heavy_check_mark: | [Search Rotated Sorted Array](https://leetcode.com/problems/binary-search) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/33-Search-in-Rotated-Sorted-Array.py) [cpp](neetcode150/medium/33-Search-in-Rotated-Sorted-Array.cpp)
+| :heavy_check_mark: | [Search Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/33-Search-in-Rotated-Sorted-Array.py) [cpp](neetcode150/medium/33-Search-in-Rotated-Sorted-Array.cpp)
+| :heavy_check_mark: | [Search Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/153-Find-Minimum-in-Rotated-Sorted-Array.py) 
 
 ### Linked List
 | Status             |Problem  | Difficulty | Code
