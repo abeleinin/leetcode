@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 18                | 3
-| Medium     | 22                | 4
+| Medium     | 23                | 4
 | Hard       | 0                 | 0 
-| Total      | 40 / 150          | 7 / 150
+| Total      | 41 / 150          | 7 / 150
 
 ## Topics
 
@@ -95,6 +95,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/200-Number-of-Islands.py)
 | :heavy_check_mark: | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/695-Max-Area-of-Island.py)
+| :heavy_check_mark: | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/207-Course-Schedule.py)
 
 ### Advanced Graphs
 
