@@ -6,10 +6,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 18                | 3
+| Easy       | 18                | 4
 | Medium     | 24                | 5
 | Hard       | 0                 | 0 
-| Total      | 42 / 150          | 8 / 150
+| Total      | 42 / 150          | 9 / 150
 
 ## Topics
 
@@ -46,7 +46,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 ### Stack
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :heavy_check_mark: | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/20-Valid-Parentheses.py)
+| :heavy_check_mark: | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/20-Valid-Parentheses.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/20-Valid-Parentheses.cpp)
 | :heavy_check_mark: | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/155-Min-Stack.py)
 
 ### Binary Search
