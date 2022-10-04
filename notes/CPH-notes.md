@@ -11,6 +11,7 @@ Competitive Programmer's Handbook Note's
   * [Iterators and Ranges](#iterators-and-ranges)
   * [Other Structures](#other-structures)
 * [Complete Search](#complete-search)
+* [Greedy Algorithms](#greedy-algorithms)
 
 ## Mathematics
 Important knowledge to know/review when solving programming problems.
@@ -430,12 +431,118 @@ If complete search is too slow, other techniques, such as greedy algorithms or d
 Problem covered in [leetcode 78](https://leetcode.com/problems/subsets/) we want to generate all the subsets of a given set. For example, the subsets of `{1, 2, 3}` are `{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3} and {1, 2, 3}`
 
 #### Method 1
+Use recursion. The follow function `search` generates the subsets of the set `{0, 1, ..., n - 1}`. 
 
+```cpp
+void search(int k){
+  if (k == n){
+    // process subset
+  } else {
+    search(k+1);
+    subset.push_back(k);
+    search(k+1);
+    subset.pop_back();
+  }
+}
+```
 
-### Generating permutations
+![Search function tree](./Ch5-Generating-Subsets.png)
+
+#### Method 2
+Another way to generate subsets is based on bit representation of integers. For example, the bit representation 25 is 11001, which corresponds to the subset {0, 3, 4}.
+
+```cpp
+for (int b = 0; b < (1<<n); b++){
+  // process subset
+}
+
+// Using bit sequence
+for (int b = 0; b < (i<<n); b++){
+  vector<int> subset;
+  for (int i = 0; i < n; i++){
+    if (b&(1<<i)) subset.push_back(i);
+  }
+}
+```
+
+### Generating permutation
+Permutations of {0, 1, 2} are (0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), and (2, 1, 0). Two approaches: Recursion or go through the permutations iteratively.
+
+#### Method 1
+```cpp
+void search() {
+  if (permutation.size() == n){
+    // process permutation
+  } else {
+    for (int i = 0; i < n; i ++){
+      if (chosen[i]) continue;
+      chosen[i] = true;
+      permutations.push_back(i);
+      search();
+      chosen[i] = false;
+      permutation.pop_back();
+    }
+  }
+}
+```
+
+#### Method 2
+```cpp
+vector<int> permutation;
+for (int i = 0; i < n; i++){
+  permutation.push_back(i);
+}
+do {
+  // process permutation
+} while (next_permutation(permutation.begin(), permutation.end()));
+```
 
 ### Backtracking
+A **backtracking** algorithm begins with an empty solution and extends the solution step by step.
+
+Implementation:
+```cpp
+void search(int y){
+  if (y == n){
+    count++;
+    return;
+  }
+  for (int x = 0; x < n; x++){
+    if (column[x] || diag1[x + y] || diag2[x-y+n-1]) continue;
+    column[x] = diag1[x+y] = diag2[x-y+n-1] = 1;
+    search(y+1)
+    column[x] = diag1[x+y] = diag2[x-y+n-1] = 0;
+  }
+}
+```
 
 ### Pruning the search
+The idea is to add "intelligence" to the algorithm so that it will notice as soon as possible if a partial solution cannot be extended to a complete solution.
+
+#### Optimization 1
+We know that the paths are symmetric about the diagonal of the grid. So, we can decide that we always first move one step down or right which reduces are search spaces. Then we multiply the solution by two to make up for the symmetric solutions.
+
+#### Optimization 2
+If the lower-right square is reached before all other nodes.
+
+#### Optimization 3
+If the path touches a wall and can turn either left or right, the grid splits into two parts that contain unvisited squares.
+
+Example:
+![Searching for paths in a 7 x 7 grid](Ch5-Op3.png)
+
+#### Optimization 4
+The idea of Optimization 3 can be genetalized: if the path cannot continue forward but can turn either left or right, the grid splits int two parts that both contain unvisited squares.
+
+This is a usual phenomenon in backtracking, because the search tree is usually large and even simple observations can effectively prune the search.
 
 ### Meet in the middle
+**Meet in the middle** is a technique where the search space is divided into two parts of about equal size. A separate search is performed for both parts and the results are combined.
+
+#### Example:
+Go through all subsets of the elements and check if the sum of the subsets is x. $O(2^n)$, because there are $2^n$ subsets. Using meet in the middle technique, we can achieve $O(n^{n/2})$.
+
+Divided both the lists into A and B such that both lists contain about half of the numbers. The first search generates all subsets of A and stores their sums to a list S_A$. Correspondingly, the second search creates a list $S_B$ from B. After this, it suffices to check if it is possible to choose one element from $S_A$ and another element from $S_B$ such that their sum is x.
+
+## Greedy algorithms
+

@@ -6,7 +6,7 @@ class Solution:
             adj[c2].append(c1)
         return adj
     
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+    def canFinish(self, numCourses, prerequisites):
         a = self.buildAdjList(numCourses, prerequisites)
         
         state = [0] * numCourses

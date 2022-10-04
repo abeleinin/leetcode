@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 18                | 3
-| Medium     | 23                | 4
+| Medium     | 24                | 5
 | Hard       | 0                 | 0 
-| Total      | 41 / 150          | 7 / 150
+| Total      | 42 / 150          | 8 / 150
 
 ## Topics
 
@@ -89,6 +89,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Subsets](https://leetcode.com/problems/subsets) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/78-Subsets.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/cpp/78-Subsets.cpp)
 | :heavy_check_mark: | [Permutations](https://leetcode.com/problems/permutations) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/46-Permutations.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/cpp/46-Permutations.cpp)
+| :heavy_check_mark: | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/39-Combination-Sum.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/cpp/39-Combination-Sum.cpp)
 
 ### Graphs
 | Status             |Problem  | Difficulty | Code
