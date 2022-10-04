@@ -545,4 +545,10 @@ Go through all subsets of the elements and check if the sum of the subsets is x.
 Divided both the lists into A and B such that both lists contain about half of the numbers. The first search generates all subsets of A and stores their sums to a list S_A$. Correspondingly, the second search creates a list $S_B$ from B. After this, it suffices to check if it is possible to choose one element from $S_A$ and another element from $S_B$ such that their sum is x.
 
 ## Greedy algorithms
+A **greedy algorithm** constructs a solution to the problem by always making a choice that looks the best at the moment. A greedy algorithm never takes back its choices, but directly constructs the final solution. 
+
+### Coin problem
+{1, 2, 5, 10, 20, 50, 100, 200}
+
+If n = 520, we need at least four coins. The optimal solution is to select coins 200 + 200 + 100 + 20 which equals 520.
 

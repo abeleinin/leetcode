@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 18                | 4
-| Medium     | 24                | 5
+| Medium     | 25                | 6
 | Hard       | 0                 | 0 
-| Total      | 42 / 150          | 9 / 150
+| Total      | 43 / 150          | 10 / 150
 
 ## Topics
 
@@ -109,6 +109,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 ### 2-D Dynamic Programming
 
 ### Greedy
+| :heavy_check_mark: | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/52-Maximum-Subarray.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/cpp/52-Maximum-Subarray.cpp)
 
 ### Intervals
 | Status             |Problem  | Difficulty | Code
