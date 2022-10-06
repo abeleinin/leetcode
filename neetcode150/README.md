@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 18                | 4
-| Medium     | 25                | 6
+| Medium     | 26                | 6
 | Hard       | 0                 | 0 
-| Total      | 43 / 150          | 10 / 150
+| Total      | 44 / 150          | 10 / 150
 
 ## Topics
 
@@ -110,6 +110,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 ### Greedy
 | :heavy_check_mark: | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/52-Maximum-Subarray.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/cpp/52-Maximum-Subarray.cpp)
+| :heavy_check_mark: | [Jump Game](https://leetcode.com/problems/jump-game) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/55-Jump-Game.py) 
 
 ### Intervals
 | Status             |Problem  | Difficulty | Code

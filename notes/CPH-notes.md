@@ -552,3 +552,23 @@ A **greedy algorithm** constructs a solution to the problem by always making a c
 
 If n = 520, we need at least four coins. The optimal solution is to select coins 200 + 200 + 100 + 20 which equals 520.
 
+**Greedy algorithm** 
+
+Always select the largest possible coin, until the required sum of money has been constructed.
+
+### Scheduling 
+Many scheduling problems can be used using a greedy algorithm.
+
+#### Algorithm 1
+Always selects the the shortest events possible.
+- Not optimal
+
+#### Algorithm 2
+Always select the next possible event that begins as early as possible.
+- Not optimal
+
+#### Algorithm 3
+Always select the next possible even that ends as early as possible.
+- Optimal
+
+## Tasks and deadlines 
