@@ -6,10 +6,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 18                | 4
+| Easy       | 19                | 4
 | Medium     | 27                | 6
 | Hard       | 0                 | 0 
-| Total      | 45 / 150          | 10 / 150
+| Total      | 46 / 150          | 10 / 150
 
 ## Topics
 
@@ -129,7 +129,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 ### Bit Manipulation
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :white_large_square: | Single Number | Easy 
+| :heavy_check_mark: | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/136-Single-Number.py)
 | :heavy_check_mark: | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/191-Number-of-1-Bits.py)
 | :white_large_square: | Counting Bits | Easy 
 | :white_large_square: | Reverse Bits | Easy 
