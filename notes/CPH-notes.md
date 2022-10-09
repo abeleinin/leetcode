@@ -13,6 +13,7 @@ Competitive Programmer's Handbook Note's
 * [Complete Search](#complete-search)
 * [Greedy Algorithms](#greedy-algorithms)
 * [Dynamic programming](#dynamic-programming)
+* [Amortized analysis](#amortized-analysis)
 
 ## Mathematics
 Important knowledge to know/review when solving programming problems.
@@ -599,3 +600,162 @@ By using the same length for each codeword we can create **constant-length** com
 **Huffman coding** is a greedy algorithm that constructs an optimal code for compressing a given string. The algorithm builds a binary tree based on the frequencies of each character.
 
 ## Dynamic programming
+**Dynamic programming** is a technique that combines the correctness of complete search and the efficiency of the greedy algorithm. It can be applied if the problem can be divided into overlapping sub-problems that can be solved independently.
+
+Two uses for dynamic programming:
+- Finding the optimal solution
+- Counting the number of solutions
+
+### Coin problem
+The dynamic programming algorithm is based on a recursive function that goes through all possibilities how to form the sum, like a brute force algorithm. However, the dynamic programming algorithm is efficient because it uses *memoization* and calculates the answer to each subproblem only once.
+
+#### Recursive formulation
+```cpp
+int solve(int x) {
+  if (x < 0) return INF;
+  if (x == 0) return 0;
+  int best = INF;
+  for (auto c : coins) {
+    best = min(best, solve(x-c)+1);
+  }
+  return best;
+}
+```
+
+#### Using memoization
+**Memoization** stores the previous values calculated in an array after they've been calculated. You could also implement memoization using a hashmap or python dictionary.
+
+```cpp
+int solve(int x) {
+  if (x < 0) return INF;
+  if (x == 0) return 0;
+  if (ready[x]) return value[x];
+  int best = INF;
+  for (auto c : coins) {
+    best = min(best, solve(x-c)+1);
+  }
+  value[x] = best;
+  ready[x] = true;
+  return best;
+}
+```
+
+Using an iterative approach:
+```cpp
+value[0] = 0;
+  for (int x = 1; x <= n; x++) {
+    value[x] = INF;
+    for (auto c : coins) {
+      if (x-c >= 0) {
+        value[x] = min(value[x], value[x-c]+1);
+    }
+  }
+}
+```
+
+#### Constructing a solution
+Sometimes we need to produce the coins in the optimal solution.
+
+```cpp
+value[0] = 0;
+for (int x = 1; x <= n; x++) {
+  value[x] = INF;
+  for (auto c : coins) {
+    if (x-c >= 0 && value[x-c]+1 < value[x]) {
+      value[x] = value[x-c]+1;
+      first[x] = c;
+    } 
+  }
+}
+
+while (n > 0) {
+  cout << first[n] << "\n";
+  n -= first[n];
+}
+```
+
+#### Counting the number of solutions
+Calculate the total number of ways to produce a sum $x$ using the coins.
+
+```cpp
+count[0] = 1;
+for (int x = 1; x <= n; x++) {
+  for (auto c : coins) {
+    if (x-c >= 0) {
+      count[x] += count[x-c];
+    }
+  } 
+}
+```
+
+### Longest increasing subsequence
+Find the maximum-length sequence of array elements that goes from left to right, and each element in the sequence is larger than the previous element.
+
+```python
+# Given
+[6, 2, 5, 1, 7, 4, 8, 3]
+
+# Answer
+[2, 5, 7, 8]
+```
+
+```cpp
+for (int k = 0; k < n; k++) {
+  length[k] = 1;
+  for (int i = 0; i < k; i++) {
+    if (array[i] < array[k]) {
+      length[k] = max(length[k],length[i]+1);
+    }
+  } 
+}
+```
+
+### Paths in a grid
+```cpp
+// O(n^2)
+for (int y = 1; y <= n; y++) {
+  for (int x = 1; x <= n; x++) {
+    sum[y][x] = max(sum[y][x-1],sum[y-1][x])+value[y][x];
+  }
+}
+```
+
+### Knapsack problems
+The term **knapsack** refers to problems where a set of objects is given, and subsets with some properties have to be found.
+
+Given a list of weights $[w_1, w_2, ..., w_n]$, determine all sums that can be constructed using the weights. For example, if the weights are [1,3,3,5], the following sums are possible:
+Every weight between 0-12, expect 2 and 10.
+
+Let $W$ denote the total sum of the weights. The following $O(nW)$ time dynamic programming solutions corresponds to the recursive function:
+```cpp
+possible[0][0] = true;
+for (int k = 1; k <= n; k++) {
+  for (int x = 0; x <= W; x++) {
+    if (x-w[k] >= 0) possible[x][k] |= possible[x-w[k]][k-1];
+    possible[x][k] |= possible[x][k-1];
+  } 
+}
+```
+
+Better implementation using a trick to update the array from right to left for each new weight:
+```cpp
+possible[0] = true
+for (int k = 1; k <= n; k++) {
+  for (int x = W; x >= 0; x--) {
+    if (possible[x]) possible[x+w[k]] = true;
+  }
+}
+```
+
+### Edit distance
+The **edit distance** or **Levenshtein distance** is the minimum number of editing operations needed to transform a string into another string. Following edit operations:
+- Insert (ABC -> ABCA)
+- Remove (ABC -> AC)
+- Modify  (ABC -> ADC)
+
+For example, the edit distance between LOVE and MOVIE is 2.
+
+## Amortized analysis
+**Amortized analysis** can be used to analyze algorithms that contain operations whose time complexity varies. The idea is to estimate the total time used to all such operations during the execution of the algorithm, instead of focusing on individual operations.
+
+### Two pointers method
