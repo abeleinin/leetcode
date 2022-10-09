@@ -12,6 +12,7 @@ Competitive Programmer's Handbook Note's
   * [Other Structures](#other-structures)
 * [Complete Search](#complete-search)
 * [Greedy Algorithms](#greedy-algorithms)
+* [Dynamic programming](#dynamic-programming)
 
 ## Mathematics
 Important knowledge to know/review when solving programming problems.
@@ -571,4 +572,30 @@ Always select the next possible event that begins as early as possible.
 Always select the next possible even that ends as early as possible.
 - Optimal
 
-## Tasks and deadlines 
+### Tasks and deadlines 
+Consider a problem where we are given $n$ tasks with durations and deadlines and our task is to choose an order to perform the tasks.
+
+The optimal solution is just the durations sorted in increasing order.
+
+### Minimizing sums
+Consider the problem where we are given $n$ numbers from $a_1, a_2, ..., a_n$ and our task is to find a value $x$ that minimizes the sum.
+
+$|a_1 - x|^c + |a_2 - x|^c + ... + |a_n - x|^c.$
+
+#### Case c = 1
+For example, if the numbers [1, 2, 9, 2, 6], the best solution is to select the median number (the middle number).
+
+#### Case c = 2
+$(a_1 - x)^2 + (a_2 - x)^2 + ... + (a_n - x)^2$
+
+In the general case, teh best choice for $x$ is the average of the numbers.
+
+### Data compression
+A **binary code** assigns for each character of a string a **codeword** that consists of bits.
+
+By using the same length for each codeword we can create **constant-length** compressed strings.
+
+#### Huffman coding
+**Huffman coding** is a greedy algorithm that constructs an optimal code for compressing a given string. The algorithm builds a binary tree based on the frequencies of each character.
+
+## Dynamic programming
