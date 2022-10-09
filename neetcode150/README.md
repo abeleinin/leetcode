@@ -6,10 +6,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 19                | 4
+| Easy       | 20                | 4
 | Medium     | 27                | 6
 | Hard       | 0                 | 0 
-| Total      | 46 / 150          | 10 / 150
+| Total      | 47 / 150          | 10 / 150
 
 ## Topics
 
@@ -100,11 +100,11 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 ### Advanced Graphs
 
-### 1-D Dynamic Progamming
+### 1-D Dynamic Programming
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/70-Climbing-Stairs.py)
-| :white_large_square: | Min Cost Climbing Stairs | Easy 
+| :heavy_check_mark: | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/746-Min-Cost-Climbing-Stairs.py)
 
 ### 2-D Dynamic Programming
 

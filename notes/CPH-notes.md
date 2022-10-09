@@ -759,3 +759,7 @@ For example, the edit distance between LOVE and MOVIE is 2.
 **Amortized analysis** can be used to analyze algorithms that contain operations whose time complexity varies. The idea is to estimate the total time used to all such operations during the execution of the algorithm, instead of focusing on individual operations.
 
 ### Two pointers method
+
+### Nearest smaller elements
+
+### Sliding window minimum
