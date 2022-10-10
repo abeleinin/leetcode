@@ -16,7 +16,7 @@ class Solution:
     return helper(n)
 
   v = {}
-  # Solution without helper funciton
+  # Solution without helper function
   def climbStairs(self, n: int) -> int:
     global v
     if n in self.v:
@@ -40,3 +40,17 @@ class Solution:
       n -= 1
             
     return curr  
+
+    # Solution using memoization
+    def climbStairs(self, n: int) -> int:
+        m = {}
+        m[1] = 1
+        m[2] = 2
+        
+        def dp(n):
+            if n in m:
+                return m[n]
+            else:
+                m[n] = dp(n - 1) + dp(n - 2)
+                return m[n]
+        return dp(n)

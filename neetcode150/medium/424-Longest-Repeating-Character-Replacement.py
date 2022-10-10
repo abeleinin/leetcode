@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 class Solution:
-  # Intital solution
+  # Initial solution
   def characterReplacement(self, s: str, k: int) -> int:
     freq = {}
     i = 0
