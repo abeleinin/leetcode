@@ -6,10 +6,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 20                | 4
+| Easy       | 21                | 4
 | Medium     | 29                | 6
 | Hard       | 0                 | 0 
-| Total      | 49 / 150          | 10 / 150
+| Total      | 50 / 150          | 10 / 150
 
 ## Topics
 
@@ -133,6 +133,6 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/136-Single-Number.py)
 | :heavy_check_mark: | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/191-Number-of-1-Bits.py)
-| :white_large_square: | Counting Bits | Easy 
+| :heavy_check_mark: | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/338-Counting-Bits.py)
 | :white_large_square: | Reverse Bits | Easy 
 | :white_large_square: | Missing Number | Easy 

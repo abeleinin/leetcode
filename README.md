@@ -6,10 +6,10 @@ The [neetcode150](https://github.com/abeleinin/neetcode/tree/main/neetcode150) f
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 20                | 4
+| Easy       | 21                | 4
 | Medium     | 29                | 6
 | Hard       | 0                 | 0 
-| Total      | 49 / 150          | 10 / 150
+| Total      | 50 / 150          | 10 / 150
 
 ## Topics
 The [topics](https://github.com/abeleinin/neetcode/tree/main/topics) folder contains notes on different interview topics.
