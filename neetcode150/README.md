@@ -108,9 +108,13 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | :heavy_check_mark: | [House Robber](https://leetcode.com/problems/house-robber) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/198-House-Robber.py) 
 
 ### 2-D Dynamic Programming
+| Status             |Problem  | Difficulty | Code
+|--------------------|---------|------------|-----
 | :heavy_check_mark: | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/62-Unique-Paths.py) 
 
 ### Greedy
+| Status             |Problem  | Difficulty | Code
+|--------------------|---------|------------|-----
 | :heavy_check_mark: | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/52-Maximum-Subarray.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/cpp/52-Maximum-Subarray.cpp)
 | :heavy_check_mark: | [Jump Game](https://leetcode.com/problems/jump-game) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/55-Jump-Game.py) 
 | :heavy_check_mark: | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/45-Jump-Game-II.py) 
