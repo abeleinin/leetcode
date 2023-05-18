@@ -33,9 +33,9 @@ $\sum^n_{x = 1} x^k = 1^k + 2^k + 3^k + ... + n^k$
 #### Intersection:
 Items in both A and B.
 
-$A = \{1, 2, 5\} $ \
-$B = \{2, 4\} $ \
-$A \cap B = \{2\} $ 
+$A = \{1, 2, 5\}$ \
+$B = \{2, 4\}$ \
+$A \cap B = \{2\}$ 
 
 #### Union:
 Items in A and B or both.
@@ -130,7 +130,7 @@ string b = a + a;
 cout << b << '\n'; // linearlinear
 // unlike python strings c++ strings are mutable.
 b[1] = 'z';
-cout << b << '\n'; // lznearlinear
+cout << b << '\n'; // linearlinear
 
 // find returns the first index of the
 // given char
@@ -156,7 +156,7 @@ The structure `unordered_set` uses hashing, and its operations work in `O(1)` ti
 |-------------|-----|---------------|
 Ordering | increasing  order (by default) | no ordering
 Implementation  | Self balancing BST (Like Red-Black Tree)  | Hash Table
-search time     | log(n)              | O(1) -> Average O(n) -> Worst Case
+Search time     | log(n)              | O(1) -> Average O(n) -> Worst Case
 Insertion time  | log(n) + Rebalance  | Same as search
 Deletion time   | log(n) + Rebalance  | Same as search
 
@@ -763,3 +763,5 @@ For example, the edit distance between LOVE and MOVIE is 2.
 ### Nearest smaller elements
 
 ### Sliding window minimum
+
+

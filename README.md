@@ -4,7 +4,7 @@ Studying for technical interviews using neetcode.io.
 
 ## Neetcode150
 
-The [neetcode150](https://github.com/abeleinin/neetcode/tree/main/neetcode150) folder contains my solutions to the neetcode 150 in Python3 and C++.
+The [neetcode150](https://github.com/abeleinin/leetcode/tree/main/neetcode150) folder contains my solutions to the neetcode 150 in Python3 and C++.
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
@@ -15,7 +15,7 @@ The [neetcode150](https://github.com/abeleinin/neetcode/tree/main/neetcode150) f
 
 ## Topics
 
-The [topics](https://github.com/abeleinin/neetcode/tree/main/topics) folder contains notes on different interview topics.
+The [topics](https://github.com/abeleinin/leetcode/tree/main/topics) folder contains notes on different interview topics.
 
 | Topics Studied |
 |------------------------
