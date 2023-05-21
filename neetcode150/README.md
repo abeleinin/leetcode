@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 6
-| Medium     | 29                | 6
+| Medium     | 29                | 8
 | Hard       | 0                 | 0 
-| Total      | 50 / 150          | 12 / 150
+| Total      | 50 / 150          | 14 / 150
 
 ## Topics
 
@@ -33,7 +33,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | :heavy_check_mark: | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/125-Valid-Palindrome.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/125-Valid-Palindrome.cpp)
 | :heavy_check_mark: | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/167-Two-Sum-II.py)
 | :heavy_check_mark: | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/15-3Sum.py)
-| :heavy_check_mark: | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/11-Container-With-Most-Water.py)
+| :heavy_check_mark: | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/11-Container-With-Most-Water.py) [cpp](https://github.com/abeleinin/leetcode/blob/main/neetcode150/medium/cpp/11-Container-With-Most-Water.py)
 
 ### Sliding Window
 | Status             |Problem  | Difficulty | Code
