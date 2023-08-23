@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 6
-| Medium     | 30                | 8
+| Medium     | 31                | 8
 | Hard       | 0                 | 0 
-| Total      | 51 / 150          | 14 / 150
+| Total      | 52 / 150          | 14 / 150
 
 ## Topics
 
@@ -52,6 +52,7 @@ Notes:
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/20-Valid-Parentheses.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/20-Valid-Parentheses.cpp)
 | :heavy_check_mark: | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/155-Min-Stack.py)
+| :heavy_check_mark: | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [python3](./medium/150-Evaluate-Reverse-Polish-Notation.py)
 
 ### Binary Search
 | Status             |Problem  | Difficulty | Code
