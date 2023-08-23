@@ -7,13 +7,17 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 6
-| Medium     | 29                | 8
+| Medium     | 30                | 8
 | Hard       | 0                 | 0 
-| Total      | 50 / 150          | 14 / 150
+| Total      | 51 / 150          | 14 / 150
 
 ## Topics
 
 ### Arrays & Hashing
+
+Notes: 
+- [Arrays](../topics/arrays.md) 
+- [Hashing](../topics/hashing.md) 
 
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|---
@@ -122,7 +126,7 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 ### Intervals
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :white_large_square: | Meeting Rooms | Easy 
+| :heavy_check_mark: | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/57-Merge-Intervals.py)
 
 ### Math & Geometry 
 | Status             |Problem  | Difficulty | Code
