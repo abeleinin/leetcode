@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 6
-| Medium     | 32                | 8
+| Medium     | 33                | 8
 | Hard       | 0                 | 0 
-| Total      | 53 / 150          | 14 / 150
+| Total      | 54 / 150          | 14 / 150
 
 ## Topics
 
@@ -53,7 +53,8 @@ Notes:
 | :heavy_check_mark: | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/20-Valid-Parentheses.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/20-Valid-Parentheses.cpp)
 | :heavy_check_mark: | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/155-Min-Stack.py)
 | :heavy_check_mark: | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [python3](./medium/150-Evaluate-Reverse-Polish-Notation.py)
-| :heavy_check_mark: | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | Medium | [python3](./medium/739-Daily-Temperatures.py)
+| :heavy_check_mark: | [Generate Parentheses](https://leetcode.com/problems/daily-temperatures/) | Medium | [python3](./medium/22-Generate-Parentheses.py)
+| :heavy_check_mark: | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [python3](./medium/739-Daily-Temperatures.py)
 
 ### Binary Search
 | Status             |Problem  | Difficulty | Code
