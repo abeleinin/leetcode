@@ -1,6 +1,6 @@
 # Leetcode
 
-Studying for technical interviews using neetcode.io. 
+Solutions to leetcode questions for technical interview prep.
 
 ## Neetcode150
 
