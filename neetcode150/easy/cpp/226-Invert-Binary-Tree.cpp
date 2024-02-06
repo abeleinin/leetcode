@@ -1,5 +1,5 @@
 // Definition for a binary tree node.
-#include <cstddef>
+#include <algorithm>
 
 struct TreeNode {
     int val;
@@ -12,17 +12,11 @@ struct TreeNode {
 
 class Solution {
 public:
-    void swap(TreeNode* t) {
-        auto temp = t->left;
-        t->left = t->right;
-        t->right = temp;
-    }
-    
     TreeNode* invertTree(TreeNode* root) {
         if (root == NULL) {
             return NULL;
         }
-        swap(root);
+        std::swap(root->right, root->left);
         invertTree(root->left);
         invertTree(root->right);
         return root;
