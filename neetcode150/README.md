@@ -73,7 +73,7 @@ Notes:
 ### Trees
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :heavy_check_mark: | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/226-Invert-Binary-Tree.py)
+| :heavy_check_mark: | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/226-Invert-Binary-Tree.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/226-Invert-Binary-Tree.cpp)
 | :heavy_check_mark: | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/104-Maximum-Depth-of-Binary-Tree.py)
 | :heavy_check_mark: | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/543-Diameter-of-Binary-Tree.py)
 | :heavy_check_mark: | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/110-Balanced-Binary-Tree.py)
