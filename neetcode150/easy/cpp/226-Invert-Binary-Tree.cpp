@@ -1,6 +1,6 @@
-// Definition for a binary tree node.
 #include <algorithm>
 
+// Definition for a binary tree node.
 struct TreeNode {
     int val;
     TreeNode *left;
