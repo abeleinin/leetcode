@@ -6,10 +6,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 21                | 10
+| Easy       | 21                | 11
 | Medium     | 34                | 8
 | Hard       | 0                 | 0 
-| Total      | 55 / 150          | 18 / 150
+| Total      | 55 / 150          | 19 / 150
 
 ## Topics
 
@@ -75,7 +75,7 @@ Notes:
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/226-Invert-Binary-Tree.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/226-Invert-Binary-Tree.cpp)
 | :heavy_check_mark: | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/104-Maximum-Depth-of-Binary-Tree.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/c/cpp/104-Maximum-Depth-of-Binary-Tree.cpp)
-| :heavy_check_mark: | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/543-Diameter-of-Binary-Tree.py)
+| :heavy_check_mark: | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/543-Diameter-of-Binary-Tree.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/543-Diameter-of-Binary-Tree.cpp)
 | :heavy_check_mark: | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/110-Balanced-Binary-Tree.py)
 | :heavy_check_mark: | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/100-Same-Tree.py)
 | :heavy_check_mark: | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/572-Subtree-of-Another-Tree.py)
