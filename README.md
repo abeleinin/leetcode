@@ -13,11 +13,11 @@ The [neetcode150](./neetcode150/) folder contains my solutions to the neetcode 1
 | Hard       | 0                 | 0 
 | Total      | 55 / 150          | 21 / 150
 
-## Topics
+## Notes
 
-The [topics](./topics) folder contains notes on different interview topics.
+[Notes](./notes) related to leetcode and technical interview prep topics.
 
-| Topics Studied |
+| Topic |
 |------------------------
 | [Arrays](./topics/arrays.md)
 | [Hashing](./topics/hashing.md)
