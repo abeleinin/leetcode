@@ -66,7 +66,7 @@ Notes:
 ### Linked List
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :heavy_check_mark: | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/206-Reverse-Linked-List.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/206-Reverse-Linked-List.cpp))
+| :heavy_check_mark: | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/206-Reverse-Linked-List.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/206-Reverse-Linked-List.cpp)
 | :heavy_check_mark: | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/21-Merge-Two-Sorted-Lists.py)
 | :heavy_check_mark: | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/141-Linked-List-Cycle.py)
 
