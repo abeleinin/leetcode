@@ -6,10 +6,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 21                | 14
+| Easy       | 21                | 15
 | Medium     | 34                | 8
 | Hard       | 0                 | 0 
-| Total      | 55 / 150          | 22 / 150
+| Total      | 55 / 150          | 23 / 150
 
 ## Topics
 
@@ -78,7 +78,7 @@ Notes:
 | :heavy_check_mark: | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/543-Diameter-of-Binary-Tree.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/543-Diameter-of-Binary-Tree.cpp)
 | :heavy_check_mark: | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/110-Balanced-Binary-Tree.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/110-Balanced-Binary-Tree.cpp)
 | :heavy_check_mark: | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/100-Same-Tree.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/100-Same-Tree.cpp)
-| :heavy_check_mark: | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/572-Subtree-of-Another-Tree.py)
+| :heavy_check_mark: | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/572-Subtree-of-Another-Tree.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/572-Subtree-of-Another-Tree.cpp)
 | :white_large_square: | Lowest Common Ancestor of a BST | Medium
 | :heavy_check_mark: | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/102-Binary-Tree-Level-Order-Traversal.py)
 | :heavy_check_mark: | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/98-Validate-Binary-Search-Tree.py)
