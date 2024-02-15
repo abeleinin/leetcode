@@ -6,10 +6,10 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 21                | 15
+| Easy       | 21                | 16
 | Medium     | 34                | 8
 | Hard       | 0                 | 0 
-| Total      | 55 / 150          | 23 / 150
+| Total      | 55 / 150          | 24 / 150
 
 ## Topics
 
@@ -110,7 +110,7 @@ Notes:
 ### 1-D Dynamic Programming
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
-| :heavy_check_mark: | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/70-Climbing-Stairs.py)
+| :heavy_check_mark: | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/70-Climbing-Stairs.py) [cpp](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/cpp/70-Climbing-Stairs.cpp)
 | :heavy_check_mark: | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/easy/746-Min-Cost-Climbing-Stairs.py)
 | :heavy_check_mark: | [House Robber](https://leetcode.com/problems/house-robber) | Medium | [python3](https://github.com/abeleinin/neetcode/blob/main/neetcode150/medium/198-House-Robber.py) 
 
