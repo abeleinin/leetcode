@@ -15,3 +15,24 @@ public:
         return stairs[n];
     }
 };
+
+// O(n) time, O(1) space solution
+class Solution {
+public:
+    int climbStairs(int n) {
+        if (n == 1) {
+            return 1;
+        }
+
+        int temp = 0;
+        int curr = 1;
+        int prev = 0;
+
+        for(int i = 1; i <= n; i++) {
+            temp = curr;
+            curr += prev;
+            prev = temp;
+        }
+        return curr;
+    }
+};
