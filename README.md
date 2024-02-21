@@ -8,10 +8,10 @@ The [neetcode150](./neetcode150/) folder contains my solutions to the neetcode 1
 
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
-| Easy       | 21                | 16
+| Easy       | 21                | 17
 | Medium     | 37                | 12
 | Hard       | 0                 | 0 
-| Total      | 58 / 150          | 28 / 150
+| Total      | 58 / 150          | 29 / 150
 
 ## Notes
 
