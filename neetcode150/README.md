@@ -61,8 +61,8 @@ Notes:
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Binary Search](https://leetcode.com/problems/binary-search) | Easy | [python3](./easy/704-Binary-Search.py) [cpp](/neetcode150/easy/cpp/704-Binary-Search.cpp)
-| :heavy_check_mark: | [Search Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | [python3](./medium/33-Search-in-Rotated-Sorted-Array.py) [cpp](neetcode150/medium/33-Search-in-Rotated-Sorted-Array.cpp)
-| :heavy_check_mark: | [Search Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [python3](./medium/153-Find-Minimum-in-Rotated-Sorted-Array.py) 
+| :heavy_check_mark: | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | [python3](./medium/33-Search-in-Rotated-Sorted-Array.py) [cpp](neetcode150/medium/33-Search-in-Rotated-Sorted-Array.cpp)
+| :heavy_check_mark: | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [python3](./medium/153-Find-Minimum-in-Rotated-Sorted-Array.py) 
 
 ### Linked List
 | Status             |Problem  | Difficulty | Code
