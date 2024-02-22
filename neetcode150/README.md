@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 17
-| Medium     | 37                | 12
+| Medium     | 38                | 12
 | Hard       | 0                 | 0 
-| Total      | 58 / 150          | 29 / 150
+| Total      | 59 / 150          | 29 / 150
 
 ## Topics
 
@@ -70,6 +70,7 @@ Notes:
 | :heavy_check_mark: | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | Easy | [python3](./easy/206-Reverse-Linked-List.py) [cpp](./easy/cpp/206-Reverse-Linked-List.cpp)
 | :heavy_check_mark: | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | Easy | [python3](./easy/21-Merge-Two-Sorted-Lists.py) [cpp](./easy/cpp/21-Merge-Two-Sorted-Lists.cpp)
 | :heavy_check_mark: | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | [python3](./easy/141-Linked-List-Cycle.py) [cpp](./easy/cpp/141-Linked-List-Cycle.cpp)
+| :heavy_check_mark: | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | Medium | [python3](./medium/287-Find-the-Duplicate-Number.py)
 | :heavy_check_mark: | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [python3](./medium/143-Reorder-List.py) [cpp](./medium/cpp/143-Reorder-List.cpp)
 | :heavy_check_mark: | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [python3](./medium/19-Remove-Nth-Node-From-End-of-List.py) [cpp](./medium/cpp/19-Remove-Nth-Node-From-End-of-List.cpp)
 
