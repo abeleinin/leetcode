@@ -51,7 +51,7 @@ Notes:
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | [python3](./easy/20-Valid-Parentheses.py) [cpp](./easy/cpp/20-Valid-Parentheses.cpp)
-| :heavy_check_mark: | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | [python3](./easy/155-Min-Stack.py)
+| :heavy_check_mark: | [Min Stack](https://leetcode.com/problems/min-stack) | Medium | [python3](./medium/155-Min-Stack.py)
 | :heavy_check_mark: | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [python3](./medium/150-Evaluate-Reverse-Polish-Notation.py) [cpp](./medium/cpp/150-Evaluate-Reverse-Polish-Notation.cpp)
 | :heavy_check_mark: | [Generate Parentheses](https://leetcode.com/problems/daily-temperatures/) | Medium | [python3](./medium/22-Generate-Parentheses.py) [cpp](./medium/cpp/22-Generate-Parentheses.cpp)
 | :heavy_check_mark: | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [python3](./medium/739-Daily-Temperatures.py)
