@@ -1,7 +1,8 @@
-#!/usr/bin/python3
+from typing import List
+
 class Solution:
   # Intital solution O(k log n)
-  def topKFrequent(self, nums: list, k: int) -> list:
+  def topKFrequent(self, nums: List[int], k: int) -> List[int]:
     d = {} 
     for n in nums:
       if n in d:
@@ -23,18 +24,21 @@ class Solution:
     return s
 
   # Optimal solution O(n) using bucket sort
-  def topKFrequent(self, nums: list, k: int) -> list:
-    count = {}
-    freq = [[] for i in range(len(nums) + 1)]
+  def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+      h = {}
+      freq = [[] for i in range(len(nums) + 1)]
+
+      for n in nums:
+          h[n] = h.get(n, 0) + 1
         
-    for n in nums:
-      count[n] = 1 + count.get(n, 0)
-    for n, c in count.items():
-      freq[c].append(n)
-        
-    res = []
-    for l in range(len(nums), 0, -1):
-      for i in freq[l]:
-        res.append(i)
-        if len(res) == k:
-          return res
+      for n, c in h.items():
+          freq[c].append(n)
+
+      res = []
+      for i in range(len(freq) - 1, 0, -1):
+          bucket = freq[i]
+          while bucket:
+              res.append(bucket.pop())
+              k -= 1
+              if k == 0:
+                  return res
