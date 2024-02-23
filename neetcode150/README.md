@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 17
-| Medium     | 40                | 12
+| Medium     | 41                | 12
 | Hard       | 0                 | 0 
-| Total      | 61 / 150          | 29 / 150
+| Total      | 62 / 150          | 29 / 150
 
 ## Topics
 
@@ -75,6 +75,7 @@ Notes:
 | :heavy_check_mark: | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [python3](./medium/2-Add-Two-Numbers.py)
 | :heavy_check_mark: | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | [python3](./easy/141-Linked-List-Cycle.py) [cpp](./easy/cpp/141-Linked-List-Cycle.cpp)
 | :heavy_check_mark: | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | Medium | [python3](./medium/287-Find-the-Duplicate-Number.py)
+| :heavy_check_mark: | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [python3](./medium/146-LRU-Cache.py)
 
 ### Trees
 | Status             |Problem  | Difficulty | Code
