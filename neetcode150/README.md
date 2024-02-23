@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 17
-| Medium     | 41                | 12
+| Medium     | 42                | 12
 | Hard       | 0                 | 0 
-| Total      | 62 / 150          | 29 / 150
+| Total      | 63 / 150          | 29 / 150
 
 ## Topics
 
@@ -86,6 +86,7 @@ Notes:
 | :heavy_check_mark: | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | Easy | [python3](./easy/110-Balanced-Binary-Tree.py) [cpp](./easy/cpp/110-Balanced-Binary-Tree.cpp)
 | :heavy_check_mark: | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [python3](./easy/100-Same-Tree.py) [cpp](./easy/cpp/100-Same-Tree.cpp)
 | :heavy_check_mark: | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | [python3](./easy/572-Subtree-of-Another-Tree.py) [cpp](./easy/cpp/572-Subtree-of-Another-Tree.cpp)
+| :heavy_check_mark: | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | [python3](./medium/235-LCA-of-a-BST.py)
 | :white_large_square: | Lowest Common Ancestor of a BST | Medium
 | :heavy_check_mark: | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [python3](./medium/102-Binary-Tree-Level-Order-Traversal.py)
 | :heavy_check_mark: | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [python3](./medium/98-Validate-Binary-Search-Tree.py)
