@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 17
-| Medium     | 42                | 12
+| Medium     | 43                | 12
 | Hard       | 0                 | 0 
-| Total      | 63 / 150          | 29 / 150
+| Total      | 64 / 150          | 29 / 150
 
 ## Topics
 
@@ -90,6 +90,7 @@ Notes:
 | :white_large_square: | Lowest Common Ancestor of a BST | Medium
 | :heavy_check_mark: | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [python3](./medium/102-Binary-Tree-Level-Order-Traversal.py)
 | :heavy_check_mark: | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [python3](./medium/98-Validate-Binary-Search-Tree.py)
+| :heavy_check_mark: | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [python3](./medium/230-Kth-Smallest-Element-in-a-BST.py)
 
 ### Tries
 
