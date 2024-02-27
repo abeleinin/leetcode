@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 17
-| Medium     | 44                | 12
+| Medium     | 45                | 12
 | Hard       | 0                 | 0 
-| Total      | 65 / 150          | 29 / 150
+| Total      | 66 / 150          | 29 / 150
 
 ## Topics
 
@@ -89,9 +89,10 @@ Notes:
 | :heavy_check_mark: | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | [python3](./medium/235-LCA-of-a-BST.py)
 | :white_large_square: | Lowest Common Ancestor of a BST | Medium
 | :heavy_check_mark: | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [python3](./medium/102-Binary-Tree-Level-Order-Traversal.py)
-| :heavy_check_mark: | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [python3](./medium/98-Validate-Binary-Search-Tree.py)
-| :heavy_check_mark: | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [python3](./medium/230-Kth-Smallest-Element-in-a-BST.py)
 | :heavy_check_mark: | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | Medium | [python3](./medium/199-Binary-Tree-Right-Side-View.py)
+| :heavy_check_mark: | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [python3](./medium/98-Validate-Binary-Search-Tree.py)
+| :heavy_check_mark: | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | [python3](./medium/1448-Count-Good-Nodes-in-Binary-Tree.py)
+| :heavy_check_mark: | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [python3](./medium/230-Kth-Smallest-Element-in-a-BST.py)
 
 ### Tries
 
