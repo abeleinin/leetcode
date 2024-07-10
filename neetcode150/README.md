@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 17
-| Medium     | 45                | 13
+| Medium     | 45                | 14
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 30 / 150
+| Total      | 66 / 150          | 31 / 150
 
 ## Topics
 
@@ -29,7 +29,7 @@ Notes:
 | :heavy_check_mark: | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [python3](./medium/238-Product-of-Array-Except-Self.py) [cpp](./medium/cpp/238-Product-of-Array-Except-Self.cpp)
 | :heavy_check_mark: | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [python3](./medium/36-Valid-Sudoku.py)
 | :x: | Encode and Decode Strings (Leetcode Premium) | Medium
-| :heavy_check_mark: | [Longest Consectutive Sequence](https://leetcode.com/problems/longest-consectutive-sequence/) | Medium | [python3](./medium/128-Longest-Consecutive-Sequence.py)
+| :heavy_check_mark: | [Longest Consectutive Sequence](https://leetcode.com/problems/longest-consectutive-sequence/) | Medium | [python3](./medium/128-Longest-Consecutive-Sequence.py) [cpp](./medium/cpp/128-Longest-Consecutive-Sequence.cpp)
 
 ### Two Pointer
 | Status             |Problem  | Difficulty | Code
