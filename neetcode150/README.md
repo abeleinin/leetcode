@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 17
-| Medium     | 45                | 14
+| Medium     | 45                | 15
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 31 / 150
+| Total      | 66 / 150          | 32 / 150
 
 ## Topics
 
@@ -27,7 +27,7 @@ Notes:
 | :heavy_check_mark: | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python3](./medium/49-Group-Anagrams.py) [cpp](https://github.com/abeleinin/leetcode/blob/main/neetcode150/medium/cpp/49-Group-Anagrams.cpp)
 | :heavy_check_mark: | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [python3](./medium/347-Top-K-Frequent-Elements.py)
 | :heavy_check_mark: | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [python3](./medium/238-Product-of-Array-Except-Self.py) [cpp](./medium/cpp/238-Product-of-Array-Except-Self.cpp)
-| :heavy_check_mark: | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [python3](./medium/36-Valid-Sudoku.py)
+| :heavy_check_mark: | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [python3](./medium/36-Valid-Sudoku.py) [cpp](./medium/cpp/36-Valid-Sudoku.cpp)
 | :x: | Encode and Decode Strings (Leetcode Premium) | Medium
 | :heavy_check_mark: | [Longest Consectutive Sequence](https://leetcode.com/problems/longest-consectutive-sequence/) | Medium | [python3](./medium/128-Longest-Consecutive-Sequence.py) [cpp](./medium/cpp/128-Longest-Consecutive-Sequence.cpp)
 
