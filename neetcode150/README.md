@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 17
+| Medium     | 45                | 18
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 35 / 150
+| Total      | 66 / 150          | 36 / 150
 
 ## Topics
 
@@ -45,7 +45,7 @@ Notes:
 | :heavy_check_mark: | [Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy | [python3](./easy/121-Best-Time-to-Buy-and-Sell-Stock.py) [cpp](./easy/cpp/121-Best-Time-to-Buy-and-Sell-Stock.cpp)
 | :heavy_check_mark: | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [python3](./easy/3-Longest-Substring-Without-Repeating-Characters.py)
 | :heavy_check_mark: | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | [python3](./easy/424-Longest-Repeating-Character-Replacement.py)
-| :heavy_check_mark: | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [python3](./easy/567-Permutation-in-String.py)
+| :heavy_check_mark: | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [python3](./easy/567-Permutation-in-String.py) [cpp](./easy/cpp/567-Permutation-in-String.cpp)
 
 ### Stack
 | Status             |Problem  | Difficulty | Code
