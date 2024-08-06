@@ -2,6 +2,38 @@
 
 using namespace std;
 
+// Optimal Time and space
+class Solution {
+public:
+    int characterReplacement(string s, int k) {
+        vector<int> freq(26, 0);
+
+        int i = 0;
+        int j = 0;
+
+        int res = 0;
+        int curr = 0;
+
+        while (j < s.size()) {
+            int& val = freq[s[j] - 'A'];
+            ++val;
+
+            curr = max(curr, val);
+
+            while ((j-i+1)-curr > k) {
+                --freq[s[i] - 'A'];
+                ++i;
+            }
+
+            res = max(res, j-i+1);
+            ++j;
+        }
+
+        return res;
+    }
+};
+
+// Initial Solution
 class Solution {
 public:
     int characterReplacement(string s, int k) {
