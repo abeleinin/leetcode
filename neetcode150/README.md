@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 21
+| Medium     | 45                | 22
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 39 / 150
+| Total      | 66 / 150          | 40 / 150
 
 ## Topics
 
@@ -55,7 +55,7 @@ Notes:
 | :heavy_check_mark: | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [python3](./medium/150-Evaluate-Reverse-Polish-Notation.py) [cpp](./medium/cpp/150-Evaluate-Reverse-Polish-Notation.cpp)
 | :heavy_check_mark: | [Generate Parentheses](https://leetcode.com/problems/daily-temperatures/) | Medium | [python3](./medium/22-Generate-Parentheses.py) [cpp](./medium/cpp/22-Generate-Parentheses.cpp)
 | :heavy_check_mark: | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [python3](./medium/739-Daily-Temperatures.py) [cpp](./medium/cpp/739-Daily-Temperatures.cpp)
-| :heavy_check_mark: | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | [python3](./medium/853-Car-Fleet.py)
+| :heavy_check_mark: | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | [python3](./medium/853-Car-Fleet.py) [cpp](./medium/cpp/853-Car-Fleet.cpp)
 
 ### Binary Search
 | Status             |Problem  | Difficulty | Code
