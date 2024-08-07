@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 24
+| Medium     | 45                | 25
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 42 / 150
+| Total      | 66 / 150          | 43 / 150
 
 ## Topics
 
@@ -95,6 +95,9 @@ Notes:
 | :heavy_check_mark: | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [python3](./medium/230-Kth-Smallest-Element-in-a-BST.py)
 
 ### Tries
+| Status             |Problem  | Difficulty | Code
+|--------------------|---------|------------|-----
+| :heavy_check_mark: | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [cpp](./medium/cpp/208-Implement-Trie.cpp)
 
 ### Heap / Priority Queue
 | Status             |Problem  | Difficulty | Code
