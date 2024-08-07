@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 23
+| Medium     | 45                | 24
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 41 / 150
+| Total      | 66 / 150          | 42 / 150
 
 ## Topics
 
@@ -108,6 +108,7 @@ Notes:
 | :heavy_check_mark: | [Subsets](https://leetcode.com/problems/subsets) | Medium | [python3](./medium/78-Subsets.py) [cpp](./medium/cpp/78-Subsets.cpp)
 | :heavy_check_mark: | [Permutations](https://leetcode.com/problems/permutations) | Medium | [python3](./medium/46-Permutations.py) [cpp](./medium/cpp/46-Permutations.cpp)
 | :heavy_check_mark: | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | [python3](./medium/39-Combination-Sum.py) [cpp](./medium/cpp/39-Combination-Sum.cpp)
+| :heavy_check_mark: | [Word Search](https://leetcode.com/problems/word-search) | Medium | [cpp](./medium/cpp/79-Word-Search.cpp)
 
 ### Graphs
 | Status             |Problem  | Difficulty | Code
