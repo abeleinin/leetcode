@@ -9,9 +9,9 @@ The [neetcode150](./neetcode150/) folder contains my solutions to the neetcode 1
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 25
+| Medium     | 45                | 26
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 43 / 150
+| Total      | 66 / 150          | 44 / 150
 
 ## Notes
 

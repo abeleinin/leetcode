@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 25
+| Medium     | 45                | 26
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 43 / 150
+| Total      | 66 / 150          | 44 / 150
 
 ## Topics
 
@@ -98,6 +98,7 @@ Notes:
 | Status             |Problem  | Difficulty | Code
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [cpp](./medium/cpp/208-Implement-Trie.cpp)
+| :heavy_check_mark: | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | [cpp](./medium/cpp/211-Design-Add-and-Search-Words-Data-Structure.cpp)
 
 ### Heap / Priority Queue
 | Status             |Problem  | Difficulty | Code
