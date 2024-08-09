@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 28
+| Medium     | 45                | 29
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 46 / 150
+| Total      | 66 / 150          | 47 / 150
 
 ## Topics
 
@@ -149,6 +149,7 @@ Notes:
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [python3](./medium/56-Merge-Intervals.py)
 | :heavy_check_mark: | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [python3](./medium/57-Insert-Interval.py)
+| :heavy_check_mark: | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | [cpp](./medium/cpp/435-Non-Overlapping-Intervals.cpp)
 
 ### Math & Geometry 
 | Status             |Problem  | Difficulty | Code
