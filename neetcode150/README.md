@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 30
+| Medium     | 45                | 31
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 48 / 150
+| Total      | 66 / 150          | 49 / 150
 
 ## Topics
 
@@ -131,6 +131,7 @@ Notes:
 | :heavy_check_mark: | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [python3](./easy/70-Climbing-Stairs.py) [cpp](./easy/cpp/70-Climbing-Stairs.cpp)
 | :heavy_check_mark: | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [python3](./easy/746-Min-Cost-Climbing-Stairs.py)
 | :heavy_check_mark: | [House Robber](https://leetcode.com/problems/house-robber) | Medium | [python3](./medium/198-House-Robber.py) 
+| :heavy_check_mark: | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [cpp](./medium/cpp/5-Longest-Palindromic-Substring.cpp) 
 
 ### 2-D Dynamic Programming
 | Status             |Problem  | Difficulty | Code
