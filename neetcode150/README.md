@@ -7,9 +7,9 @@ Implementation of the [Neetcode 150](https://neetcode.io/practice) in Python and
 | Difficulty | Solved in Python3 | Solved in C++
 |------------|-------------------|---------------
 | Easy       | 21                | 18
-| Medium     | 45                | 31
+| Medium     | 45                | 32
 | Hard       | 0                 | 0 
-| Total      | 66 / 150          | 49 / 150
+| Total      | 66 / 150          | 50 / 150
 
 ## Topics
 
@@ -25,7 +25,7 @@ Notes:
 | :heavy_check_mark: | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy | [python3](./easy/242-Valid-Anagram.py) [cpp](./easy/cpp/242-Valid-Anagram.cpp)
 | :heavy_check_mark: | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [python3](./easy/1-Two-Sum.py) [cpp](./easy/cpp/1-Two-Sum.cpp)
 | :heavy_check_mark: | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python3](./medium/49-Group-Anagrams.py) [cpp](https://github.com/abeleinin/leetcode/blob/main/neetcode150/medium/cpp/49-Group-Anagrams.cpp)
-| :heavy_check_mark: | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [python3](./medium/347-Top-K-Frequent-Elements.py)
+| :heavy_check_mark: | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [python3](./medium/347-Top-K-Frequent-Elements.py) [cpp](./medium/cpp/347-Top-K-Frequent-Elements.pp)
 | :heavy_check_mark: | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [python3](./medium/238-Product-of-Array-Except-Self.py) [cpp](./medium/cpp/238-Product-of-Array-Except-Self.cpp)
 | :heavy_check_mark: | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [python3](./medium/36-Valid-Sudoku.py) [cpp](./medium/cpp/36-Valid-Sudoku.cpp)
 | :x: | Encode and Decode Strings (Leetcode Premium) | Medium
