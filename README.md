@@ -6,6 +6,8 @@
 
 What's the most fundamental component of the technical interview? **Data structures and Algorithms (DSA).** Building a strong fundamental understanding before tackling Leetcode style questions will 1) make you a better programmer with stronger fundamental knowledge of the field, but more importantly 2) build a tool box of approaches you can use to reason and solve any technical question you may face. 
 
+The language you use for these problems should be job-specific. Most people just use python for syntactic simplicity, but if you're applying to be a C++ dev it would be weird to not use C++ during the interview. In my case, I'm interesting in C/C++, so the content below follows suite.
+
 ## Table of Contents
 
 - [Data Structures](#data-structures)
@@ -33,14 +35,14 @@ What's the most fundamental component of the technical interview? **Data structu
 
 ## Neetcode 150
 
-The [neetcode150](./neetcode150/) folder contains my solutions to the neetcode 150 in Python3 and C++.
+The [neetcode150](./neetcode150/) folder contains my solutions to Neetcode 150 in C++.
 
-| Difficulty | Solved in Python3 | Solved in C++
-|------------|-------------------|---------------
-| Easy       | 21                | 18
-| Medium     | 45                | 32
-| Hard       | 0                 | 0 
-| Total      | 66 / 150          | 50 / 150
+| Difficulty | Solved
+|------------|-------------------
+| Easy       | 18
+| Medium     | 32
+| Hard       | 0 
+| Total      | 50 / 150
 
 ## Notes
 
