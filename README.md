@@ -15,7 +15,7 @@ The language you use for these problems should be job-specific. Most people just
 
 ## Data Structures
 
-- Array
+- Vector
 - Linked List
 - Stack
 - Queue
@@ -48,10 +48,18 @@ The [neetcode150](./neetcode150/) folder contains my solutions to Neetcode 150 i
 
 [Notes](./notes) related to leetcode and technical interview prep topics.
 
+### C++ Topics 
+
 | Topic |
 |------------------------
-| [Arrays](./topics/arrays.md)
-| [Hashing](./topics/hashing.md)
+| Containers
+
+### Leetcode topics
+
+| Topic |
+|------------------------
+| Vectors
+| Hashing
 | Two Pointer
 | Sliding Window
 | Stack
