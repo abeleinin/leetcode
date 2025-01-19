@@ -16,7 +16,7 @@ The language you use for these problems should be job-specific. Most people just
 ## Data Structures
 
 - Vector
-- Linked List
+- [Linked List](/data-structures/linked_list/)
 - Stack
 - Queue
 - Trees (Tree, Binary Tree, Binary Search Tree, Red-Black Tree, etc.)
