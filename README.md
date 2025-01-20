@@ -15,7 +15,7 @@ The language you use for these problems should be job-specific. Most people just
 
 ## Data Structures
 
-- Vector
+- [Vector](/data-structures/vector/)
 - [Linked List](/data-structures/linked_list/)
 - Stack
 - Queue
