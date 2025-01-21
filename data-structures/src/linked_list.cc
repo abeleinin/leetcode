@@ -11,3 +11,10 @@ Node<T>::Node(T value, Node* next)
     : value(value)
     , next(next)
 {}
+
+template <typename T>
+LinkedList<T>::LinkedList(T value) {
+    head = new Node<T>(value);
+    tail = head;
+    ++size;
+}
