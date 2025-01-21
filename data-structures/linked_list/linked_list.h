@@ -1,3 +1,6 @@
+#ifndef LINKED_LIST_H
+#define LINKED_LIST_H
+
 #include <cstddef>
 
 template<typename T>
@@ -50,3 +53,5 @@ private:
 
     size_t size;
 };
+
+#endif // LINKED_LIST_H

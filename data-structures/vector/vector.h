@@ -1,3 +1,6 @@
+#ifndef VECTOR_H
+#define VECTOR_H
+
 #include <cstddef>
 
 template <typename T>
@@ -54,3 +57,5 @@ private:
   
   int m_capcity;
 };
+
+#endif // VECTOR_H
