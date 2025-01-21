@@ -26,6 +26,14 @@ The language you use for these problems should be job-specific. Most people just
 - Trie (pronounced "tree")
 - Linked Hash Map
 
+Run the following commands to build and run the unit tests:
+
+```
+cmake -S . -B build
+cmake --build build
+cd build && ctest
+```
+
 ## Algorithms
 
 - Sorting algorithms (Comparison and non-comparison sorting)
