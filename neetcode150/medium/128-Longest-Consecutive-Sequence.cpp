@@ -22,3 +22,23 @@ public:
         return res;
     }
 };
+
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        set<int> s(nums.begin(), nums.end());
+
+        int res = 0;
+        for (auto num : s) {
+            if (!s.contains(num-1)) {
+                int curr = 1;
+                while (s.contains(num+1)) {
+                    ++curr;
+                    ++num;
+                }
+                res = max(curr, res);
+            }
+        }
+        return res;
+    }
+};
