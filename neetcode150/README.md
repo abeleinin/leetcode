@@ -8,7 +8,7 @@
 |------------|-------------------
 | Easy       | 18
 | Medium     | 32
-| Hard       | 0 
+| Hard       | 1 
 | Total      | 50 / 150
 
 ## Topics
@@ -34,6 +34,7 @@
 | :heavy_check_mark: | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [cpp](./medium/cpp/167-Two-Sum-II.cpp)
 | :heavy_check_mark: | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [cpp](./medium/cpp/15-3Sum.cpp)
 | :heavy_check_mark: | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [cpp](https://github.com/abeleinin/leetcode/blob/main/neetcode150/medium/cpp/11-Container-With-Most-Water.py)
+| :heavy_check_mark: | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [cpp](./hard/42-Trapping-Rain-Water.cpp)
 
 ### Sliding Window
 | Status             |Problem  | Difficulty | Code

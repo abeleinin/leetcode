@@ -49,8 +49,8 @@ The [neetcode150](./neetcode150/) folder contains my solutions to Neetcode 150 i
 |------------|-------------------
 | Easy       | 18
 | Medium     | 32
-| Hard       | 0 
-| Total      | 50 / 150
+| Hard       | 1
+| Total      | 51 / 150
 
 ## Notes
 
