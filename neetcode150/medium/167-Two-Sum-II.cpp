@@ -2,6 +2,15 @@
 
 using namespace std;
 
+/**
+ * \c Solution
+ * 
+ * Because the input is sorted we can use the left and right pointers and check the curr
+ * sum vs. the target the determine if we need to increment or decrement
+ * 
+ * Time  : O(N)
+ * Space : O(1)
+ */
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
