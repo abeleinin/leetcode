@@ -2,6 +2,16 @@
 
 using namespace std;
 
+/**
+ * \c Solution
+ * 
+ * 1. Use two pointers and calculate the water container as:
+ *          min(height[left], height[right]) * right-left (distance between)
+ * 2. Increment/decrement the smaller of the two heights
+ * 
+ * Time  : O(n)
+ * Space : O(1)
+ */
 class Solution {
 public:
     int maxArea(vector<int>& height) {
