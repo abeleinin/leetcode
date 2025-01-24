@@ -2,10 +2,16 @@
 
 using namespace std;
 
+/**
+ * Solution
+ * 
+ * 1. Using stack<pair<int, int>> (val, minVal)
+ * 2. stack.top().second is the current min value
+ * 
+ * Time  : O(1) for every method
+ * Space : O(N) stack size
+ */
 class MinStack {
-private:
-    stack<pair<int, int>> st;
-
 public:
     MinStack() {
     }
@@ -26,6 +32,9 @@ public:
     int getMin() {
         return st.top().second;
     }
+
+private:
+    stack<pair<int, int>> st;
 };
 
 /**
