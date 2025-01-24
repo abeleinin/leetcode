@@ -1,32 +1,37 @@
 #include <stack>
 #include <string>
+
 using namespace std;
 
-// Solution 1
+/**
+ * \c Solution
+ * 
+ * 1. Push open parens to stack
+ * 2. On closed paren check if stack.top is the open paren
+ * 
+ * Time  : O(N)
+ * Space : O(N)
+ */
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> parens;
-        if(s.length() % 2 != 0){
-          return false;
-        }
-        for(char c : s){
-            if(c == '{' || c == '(' || c == '['){
-                parens.push(c);
-            } else if(parens.size() > 0){
-                if(c == '}' && parens.top() == '{'){
-                    parens.pop();
-                } else if(c == ']' && parens.top() == '['){
-                    parens.pop();
-                } else if(c == ')' && parens.top() == '('){
-                    parens.pop();
-                } else{
-                    return false;
-                }
-            } else{
+        stack<char> st;
+
+        for (char p : s) {
+            if (p == '(' || p == '[' || p == '{') {
+                st.push(p);
+            } else if (st.empty()) {
                 return false;
+            } else if (p == ')' && st.top() != '(') {
+                return false;
+            } else if (p == ']' && st.top() != '[') {
+                return false;
+            } else if (p == '}' && st.top() != '{') {
+                return false;
+            } else {
+                st.pop();
             }
-        } 
-        return parens.size() == 0;
+        }
+        return st.empty();
     }
 };
