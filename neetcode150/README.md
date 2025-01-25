@@ -8,8 +8,8 @@
 |------------|-------------------
 | Easy       | 18
 | Medium     | 32
-| Hard       | 1 
-| Total      | 50 / 150
+| Hard       | 2 
+| Total      | 52 / 150
 
 ## Topics
 
@@ -53,6 +53,7 @@
 | :heavy_check_mark: | [Generate Parentheses](https://leetcode.com/problems/daily-temperatures/) | Medium | [cpp](./medium/cpp/22-Generate-Parentheses.cpp)
 | :heavy_check_mark: | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [cpp](./medium/cpp/739-Daily-Temperatures.cpp)
 | :heavy_check_mark: | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | [cpp](./medium/cpp/853-Car-Fleet.cpp)
+| :heavy_check_mark: | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | [cpp](./hard/84-Largest-Rectangle-in-Histogram.cpp)
 
 ### Binary Search
 | Status             |Problem  | Difficulty | Code
