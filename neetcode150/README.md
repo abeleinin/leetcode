@@ -7,9 +7,9 @@
 | Difficulty | C++
 |------------|-------------------
 | Easy       | 18
-| Medium     | 33
+| Medium     | 34
 | Hard       | 2 
-| Total      | 53 / 150
+| Total      | 54 / 150
 
 ## Topics
 
@@ -60,6 +60,7 @@
 |--------------------|---------|------------|-----
 | :heavy_check_mark: | [Binary Search](https://leetcode.com/problems/binary-search) | Easy | [cpp](/neetcode150/easy/cpp/704-Binary-Search.cpp)
 | :heavy_check_mark: | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | Medium | [cpp](./medium/74-Search-a-2D-Matrix.cpp)
+| :heavy_check_mark: | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) | Medium | [cpp](./medium/875-Koko-Eating-Bananas.cpp)
 | :heavy_check_mark: | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | [cpp](neetcode150/medium/33-Search-in-Rotated-Sorted-Array.cpp)
 | :heavy_check_mark: | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | 
 
