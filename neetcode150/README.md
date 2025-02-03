@@ -8,8 +8,8 @@
 |------------|-------------------
 | Easy       | 18
 | Medium     | 35
-| Hard       | 3 
-| Total      | 56 / 150
+| Hard       | 4 
+| Total      | 57 / 150
 
 ## Topics
 
@@ -44,6 +44,7 @@
 | :heavy_check_mark: | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | [cpp](./medium/cpp/424-Longest-Repeating-Character-Replacement.cpp)
 | :heavy_check_mark: | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [cpp](./easy/cpp/567-Permutation-in-String.cpp)
 | :heavy_check_mark: | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [cpp](./hard/76-Minimum-Window-Substring.cpp)
+| :heavy_check_mark: | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [cpp](./hard/239-Sliding-Window-Maximum.cpp)
 
 ### Stack
 | Status             |Problem  | Difficulty | Code

@@ -45,13 +45,6 @@ cd build && ctest
 
 The [neetcode150](./neetcode150/) folder contains my solutions to Neetcode 150 in C++.
 
-| Difficulty | Solved
-|------------|-------------------
-| Easy       | 18
-| Medium     | 35
-| Hard       | 3
-| Total      | 56 / 150
-
 ## Notes
 
 [Notes](./notes) related to leetcode and technical interview prep topics.
