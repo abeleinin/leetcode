@@ -18,3 +18,23 @@ LinkedList<T>::LinkedList(T value) {
     tail = head;
     ++size;
 }
+
+template <typename T>
+LinkedList<T>::add(T value) {
+    head->next = value;
+    head = &value;
+    ++size;
+}
+
+void LinkedList::print_list() const {
+    if (size == 0) {
+        std::cout << "nullptr" << std::endl;
+    }
+
+    std::cout << "{ " << head->value;
+    for (int i = 1; i < size; ++i) {
+        ++head;
+        std::cout << " -> " << head->value
+    }
+    std::cout << " -> nullptr " << head->value;
+}
