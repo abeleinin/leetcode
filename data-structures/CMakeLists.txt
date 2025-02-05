@@ -9,11 +9,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Define project directories
 set(SRC_DIR ${CMAKE_SOURCE_DIR}/src)
-set(LIB_DIR ${CMAKE_SOURCE_DIR}/lib)
+set(INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
 set(TEST_DIR ${CMAKE_SOURCE_DIR}/tests)
 
 # Include the header files directory
-include_directories(${LIB_DIR})
+include_directories(${INCLUDE_DIR})
 
 # Find Catch2 for testing
 find_package(Catch2 3 REQUIRED)
